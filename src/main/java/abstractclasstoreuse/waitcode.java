@@ -47,9 +47,15 @@ public class waitcode {
 	}
 	
 	public cartpage gotocartpage() {
+		System.out.println("new git download");
+		System.out.println("new git download");
+		System.out.println("new git download");
+		System.out.println("new git download");
 		cartpage.click();
 		cartpage cart=new cartpage(driver);
 		return cart;
+		
+		
 	}
 	public orderpage gotoorderpage() {
 		
